@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 1</title>
+</head>
+<body>
+    <h1>Практическая работа 1: "Основы HTML"</h1>
+    <H2>Задание 1: Субъекты РФ</H2>
+    <p><b>Субъет РФ</b>, в котором я живу, - Красноярский край. Он входит в состав <ins><i>Сибирского федеративного округа.</i></ins></p>
+    <p><i>Герб Красноярскогшо края</i>: в червлёном поле поверх лазоревого, смещённого вправо и тонко окаймленного золотом столба, - золотой лев, держащий золотую лопату, а в левой - золотой серп.</p>
+    <p><i>Флаг Красноярского края</i> представляет собой прямоугольное красное полотнище, посередине
+    флага расположен герб края.</p>
+    <p><mark>Административный центр</mark> - <b>Красноярск</b>. Одна из достопримечательностей Красноярского края - уникальный сосновый <ins>Анашенский бор</ins>, который находится на правобережье Енисея, на расстоянии 25 километров от села Новосёлово.</p>
+    <table border="1" align="center">
+        <thead>
+            <tr>
+                <th colspan="2">Субъекты РФ</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>кол-во республик</b></td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td><b>кол-во краев</b></td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td><b>кол-во областей</b></td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td><b>города фед значения</b></td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>автономные округи</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>номер 4</h2>
+    <table border="1" align="center">
+        <THead>
+            <tr>
+                <th>неделя</th>
+                <th>понедельник</th>
+                <th>среда</th>
+                <th>пятница</th>
+            </tr>
+        </THead>
+        <tbody>
+            <tr>
+                <td>1 неделя</td>
+                <td>иванов</td>
+                <td>петрова</td>
+                <td>сидоров</td>
+            </tr>
+            <TR>
+                <td>2 неделя</td>
+                <td>Козлова</td>
+                <td>морозов</td>
+                <td>лебедев</td>
+            </TR>
+            <tr>
+                <td colspan="4">! дежурный отвечает за чистоту и кофе</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>номер 5</h2>
+    <form>
+        <fieldset>
+            <legend>Личный данные</legend>    
+            <label>
+                ФИО*:<br>
+                <input type="text" placeholder="иванов иван иванович" required>
+            </label><br><br>
+            <label>
+                Email*:<br>
+                <input type="email" placeholder="example@mail.com" required>
+            </label><br><br>
+            <label>
+                Телефон*:<br>
+                <input type="tel" placeholder="+7 (999) 123-45-67" required>
+            </label><br><br>
+            <label>
+                Дата рождения*:<br>
+                <input type="date" required>
+            </label><br><br>
+            <label>
+                Фото профиля(опционально)<br>
+                <input type="file" value="Файл не выбран"> <small>Поддерживаются форматы JPG, PNG, WebP (до 5 МБ)</small>
+            </label><br>
+            <input type="submit" value="Отправить">
+        </fieldset>
+    </form><br><br><br>
+    <form>
+        <fieldset>
+            <legend>Проффесиональная сфера</legend>
+            <label>
+                Должность*:<br>
+               <input type="text" placeholder="Frontend-разработчик" required>
+            </label><br><br>
+            <label>
+                Компания:<br>
+                <input type="text" placeholder="ООО 'ТехноСофт'" required>
+            </label><br><br>
+            <label>
+                Опыт работы*:<br>
+                <input type="radio" name="12" checked required> 0-1 год
+            </label><br>
+            <label>
+                <input type="radio" name="12" required> 1-3 года
+            </label><br>
+            <label>
+                <input type="radio" name="12" required> 3-5 лет
+            </label><br>
+            <label>
+                <input type="radio" name="12" required> Более 5 лет
+            </label><br>
+            <input type="submit" value="Отправить">
+        </fieldset>
+    </form><br><br><br>
+    <form>
+        <fieldset>
+            <legend>Формат участия</legend>
+            <label>
+                Формат участия*:<br>
+                <input type="radio" name="13" checked required>Очно (Москва, Сколково)
+            </label><br>
+            <label>
+                <input type="radio" name="13" required> Онлайн-трансляция
+            </label><br><br>
+
+            <label>
+                Дополнительные активности (можно выбрать несколько): <br>
+                <input type="checkbox" name="14" checked required> Воркшоп по React
+            </label><br>
+            <label>
+                <input type="checkbox" name="14" required> Вечер нетроркинга
+            </label><br>
+            <label>
+                <input type="checkbox" name="14" required>Хакатон (24 часа)
+            </label><br>
+            <label>
+                <input type="checkbox" name="14" required> Ярмарка вакансий
+            </label><br>
+            <input type="submit" value="Отправить">
+        </fieldset>
+    </form>
+</body>
+</html>
